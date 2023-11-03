@@ -1,5 +1,7 @@
+import { Injectable } from '@nestjs/common';
 import { MessagesRepository } from './messages.repository';
 
+Injectable()
 export class MessagesService {
     messagesRepo: MessagesRepository;
 
